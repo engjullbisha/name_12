@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f9f9f9;
+}
+.container {
+    width: 80%;
+    height: 6vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ballines {
+    width: 46%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ballines ul {
+    list-style: none;
+    display: flex;
+}
+.ballines ul li a {
+    display: flex;
+    text-decoration: none;
+    margin-left: 0.9rem;
+    font-size: 0.9rem;
+    color: rgb(113, 113, 241);
+    margin-left: 15px;
+}
+.products {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.products ul {
+    list-style: none;
+    display: flex;
+}
+.products ul li a {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 0.9rem;
+    color: rgb(113, 113, 241);
+}
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #afa9a9;
+
+}
+header .nav-left {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left h1 {
+   font-size: 2.9rem;
+   color: black;
+   background-color: grey;
+   text-transform: capitalize;
+   font-weight: 900;
+}
+.nav-center {
+    width: 39%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-center ul {
+    list-style: none;
+    display: flex;
+}
+.nav-center ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: rgb(113, 113, 241);
+}
+.nav-right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-right form {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+form input {
+    border-radius: 0.4rem;
+    border: none;
+    padding: 0.3rem;
+    margin: 2px;
+}
+.main {
+    margin: auto;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.main .informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.informations .giani-photo {
+    width: 100%;
+    height: 90%;
+}
+.giani-photo img {
+    width: 100%;
+    height: 100%;
+    background-size: coer;
+}
+.giani {
+        width: 100%;
+        height: 15%;
+        display: flex;  
+    }
+.giani p {
+    font-size: 1.3rem;
+    color: black;
+    background-color: grey;
+    font-weight: 600;
+}
+.other-info {
+    margin-left: 10px;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.other-info .div {
+    width: 45%;
+    height: 42%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    justify-content: center;
+
+} 
+.div .div-about {
+    width: 100%;
+    height: 100%;
+}
+.div-about img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.div-p {
+    width: 100%;
+    height: 100%;
+}
+.div-p p {
+    font-size: 0.9rem;
+    color: rgb(105, 105, 250);
+    font-weight: 600;
+    padding: 0.2rem;
+}
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #afa9a9;
+}
+footer p {
+    color: whitesmoke;
+    font-size: 1rem;
+    
+    
+}
+footer p span {
+    padding: 0.2rem;
+    border: rgb(62, 62, 62);
+    border-radius: 50%;
+}
